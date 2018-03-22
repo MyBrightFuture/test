@@ -1,0 +1,80 @@
+﻿@CHARSET "UTF-8";
+/*左文章列表*/
+.weizhi { margin: 0 0 20px 0; width: 670px; overflow: hidden }
+.weizhi  .wzh2 { font-size: 14px; line-height: 36px; color: #666; background: url(../images/lct.png) left center no-repeat; padding-left: 30px }
+.weizhi  h2 a { font-weight: normal;color: #333; margin: 0 5px }
+.weizhi  h2 a:hover { color: #000; text-decoration: underline }
+.news_title { font-size: 24px; font-weight: 400; padding: 20px 0 10px 0; color: #38485A; }
+.news_author { width: 100%; color: #999999;  line-height: 18px;  }
+.news_author span { margin-right: 20px; padding-left: 20px }
+.au01 { background: url(../images/author2.png) no-repeat left center }
+.au02 { background: url(../images/date.png) no-repeat left center }
+.au03 b { color: #333; padding: 0 5px }
+.au04{  font-weight: normal;  }
+.news_content { line-height: 24px ;font-size: 14px;}
+.news_content p {
+    line-height: 28px;
+    margin: 10px 0;
+    text-indent: 2em;
+} 
+.news_content p img {border:0; display: block;/*width: 600px;height: 390px;*/}
+.tags a {background: #F4650E;padding: 3px 8px;margin: 0 5px 0 0;color: #fff;}
+.tags {margin: 10px 0;}
+/*share*/
+.share { margin: 20px 0 }/*分享*/
+/*.author_cont span,
+.collection,
+.w_share .whynewcon .bds_weixin,
+.w_share .bdshare-button-style0-32 .bds_tsina,
+.w_share .bdshare-button-style0-32 .bds_qzone,
+.w_share .bdshare-button-style0-32 .bds_sqq,
+.author-box
+.recommend_ico{background:url(../images/icon3_v2.png) no-repeat;_background:url(../images/icon03_v2.png) no-repeat}
+
+.w_share{position:relative;height:63px;line-height:38px;margin-top:20px}
+.w_share em{float:left;display:block;color:#444;width:40px;line-height:36px;font-style: normal;font-weight: normal;}
+.w_share .bdsharebuttonbox{float:left;width:155px}
+
+.whynewcon{display:inline-block;float:left}
+
+.w_share .whynewcon .bds_weixin{display:inline-block;width:30px;height:25px;background-position:0 -103px;margin:6px 6px 6px 0}
+.w_share .bdshare-button-style0-32 .bds_tsina{display:inline-block;width:34px;height:27px;background-position:-37px -103px}
+.w_share .bdshare-button-style0-32 .bds_qzone{display:inline-block;width:29px;height:30px;background-position:-78px -103px}
+.w_share .bdshare-button-style0-32 .bds_sqq{display:inline-block;width:23px;height:28px;background-position:-113px -103px}
+.w_share .whyknow .whyicon{display:inline-block;width:19px;height:19px;background:url(../images/weixinicon.png);vertical-align:middle}
+
+.w_share .whynewcon .bds_weixin,
+.w_share .bdshare-button-style0-32 .bds_tsina,
+.w_share .bdshare-button-style0-32 .bds_qzone,
+.w_share .bdshare-button-style0-32 .bds_sqq,.applause-btn{background-image:url(../images/icon011-2.png);background-size:50px auto;-webkit-background-size:50px auto}
+
+.w_share .whynewcon .bds_weixin{background-position:0 -110px}
+.w_share .bdshare-button-style0-32 .bds_tsina{background-position:0 -147px}
+.w_share .bdshare-button-style0-32 .bds_qzone{background-position:0 -188px}
+.w_share .bdshare-button-style0-32 .bds_sqq{background-position:0 -235px}
+
+.w_newBottom{position:absolute;left: 0px;bottom:65px;_bottom:70px}
+.w_new{z-index:999;width:261px;height:317px;border:solid 2px #d6d7db;background-color:#fff}
+.w_new .pl{position:relative;height:48px;line-height:48px;z-index:100}
+.w_new .shytitle{cursor:default;width:210px;display:inline-block;font-size:14px;font-family:'Microsoft Yahei';line-height:20px;position:absolute;top:26px;left:30px}
+.w_new .weixinImg{position:absolute;top:78px;left:38px;cursor:default}
+.w_newBottom .weixintop{width:261px;height:10px;background:url(../images/weixinbotton.jpg);position:absolute;bottom: -10px;_bottom: -11px;left:-84px;overflow:hidden}
+.w_newTop{position:fixed;left:50%;top:50%;margin:-160px 0 0 -132px;width:265px;height:321px;z-index:999}
+.whyknow{position:relative;font-size:14px;border:none;background:none;position:absolute;top:255px;_top:275px;left:60px}
+.w_share .whyknow .whyicon{display:inline-block;width:19px;height:19px;background:url(../images/weixinicon.png);vertical-align:middle}
+.whyknow a{color:#416eaa;background:none;display:inline;float:none}
+.w_newTop{position:absolute;left: 206px;top:42px}
+.whyclose{width:16px;height:16px;line-height:16px;position:absolute;right:5px;top:5px;color:#999;text-decoration:none;font-size:16px;display:block;cursor:pointer}
+.whyclose a:hover{text-decoration:none}
+.cwy_share_float .w_newTop{position:fixed;left:50%;top:50%;margin:-160px 0 0 -132px;width:265px;height:321px;z-index:999}
+*/
+/*下一页*/
+.nextpage{
+line-height: 24px;
+}
+.nextpage a{
+color: #0196E3;
+}
+.nextpage a:hover {
+color: #393939;
+}
